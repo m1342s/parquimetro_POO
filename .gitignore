@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 node_modules/
 *.log
 *.exe
 .env
+=======
+>>>>>>> 5e95037 (Código modificado)
