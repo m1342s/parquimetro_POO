@@ -14,7 +14,7 @@ class Parquimetro {
     }
   }
   calcularTroco() {
-    const tempo = this.calcularTempo;
+    const tempo = this.calcularTempo();
     let valorUtilizado = 0;
 
     switch (tempo) {
@@ -56,7 +56,7 @@ class Parquimetro {
       resultadoDiv.innerHTML = "<span>Insira um valor válido</span>";
       return;
     }
-    const parquimetro = new Parquimetro();
+    const parquimetro = new Parquimetro(valorInput);
     resultadoDiv.innerHTML = parquimetro.gerarResumo();
   }
 }
