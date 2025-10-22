@@ -10,6 +10,8 @@ class Parquimetro {
     } else if (v < 1.75) {
       return 30;
     } else if (v < 3.0) {
+      return 60;
+    } else {
       return 120;
     }
   }
